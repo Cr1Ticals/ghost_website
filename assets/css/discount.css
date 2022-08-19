@@ -1,0 +1,22 @@
+@import "./variable.css";
+/*=============== DISCOUNT ===============*/
+.discount_container{
+    background: var(--container-color);
+    border-radius: 1rem;
+    padding: 1.25rem 0 1.25rem;
+    row-gap: .75rem;
+  }
+  
+  .discount_data {
+    text-align: center;
+  }
+  
+  .discount_title {
+    font-size:var(--h2-font-size);
+    margin-bottom: var(--mb-2);
+  }
+  
+  .discount_img {
+    width: 200px;
+    justify-self: center;
+  }

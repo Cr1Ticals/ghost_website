@@ -1,0 +1,39 @@
+@import "./variable.css";
+/*=============== BUTTONS ===============*/
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--text-color);
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+    transition: .3s;
+  }
+  .button:hover {
+    background-color: var(--first-color-alt);
+  }
+  
+  .button_icon{
+    font-size: 1.25rem;
+  }
+  
+  .button--ghost {
+    border: 3px solid;
+    background-color: transparent;
+    border-radius: 3rem;
+    padding: .75rem 1.5rem;
+  }
+  
+  .button--ghost:hover{
+    background: var(--first-color);
+  }
+  
+  .button--link {
+    color: var(--title-color)
+  }
+  
+  .button--flex {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+  }
